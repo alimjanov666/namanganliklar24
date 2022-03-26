@@ -7,10 +7,7 @@
     margin: 0;
 }
 
-*:focus {
-    /* outline: #000 1px dashed; */
-    /* outline-offset: 2px; */
-}
+
 
 html {
     height: 100%;
@@ -206,4 +203,17 @@ display: inline-block;
 .site-header-nav-list-item-link:active {
     color: #7296ec;
     opacity: 80%;
+}
+
+
+.site-header-banner {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.site-header-banner-img {
+    width: 100%;
+    height: auto;
+
+
 }
