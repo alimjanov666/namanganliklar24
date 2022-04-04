@@ -655,12 +655,15 @@ border-radius: 15px;
     height: 30px;
     object-fit: contain;
     padding-right: 10px;
+    padding-bottom: 36px;
 }
 .gl-news-item-footer-text-arcticle {
     font-weight: 400;
     font-size: 14px;
     line-height: 16.59px;
     color: #5E5F61;
+    padding-bottom: 36px;
+    padding-top: 10px;
 
 }
 
