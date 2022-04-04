@@ -152,9 +152,8 @@ display: inline-block;
     background-color: #fff;
     color: #000;
 }
-.site-header-top-btn {
 
-}
+
 .primary-btn {
     font-weight: 500;
     line-height: 19px;
@@ -683,4 +682,115 @@ border-radius: 15px;
     padding-right: 48px;
     position: relative;
     margin-bottom: 100px;
+}
+
+.wraperlist-arcticle {
+    width: 100%;
+    display: flex;
+}
+.news-cards-item-arcticle:not(:last-child) {
+    margin-right: 10px;
+}
+.news-cards-item-arcticle {
+    width: 393px;
+    border-radius: 15px;
+    background-color:#F6F6F6;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 18px 15px 17px;
+}
+.news-cards-item-title-arcticle {
+width: 338px;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+margin-bottom: 10px;
+}
+.news-cards-item-link-arcticle {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+.news-cards-item-text-arcticle {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.news-card-item-footer-img-arcticle {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.contact-wrapper {
+    padding: 48px;
+    display: flex;
+    position: relative;
+
+}
+.contact-wrapper-from {
+    width: 696px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact-wrapper-title {
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #000;
+margin-top: 0;
+margin-bottom: 20px;
+position: absolute;
+top: 0;
+left: 0;
+}
+.contact-wrapper-input-both {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-wrapper-input {
+    border-radius: 10px;
+    border:solid 1px #0002;
+    padding: 18px 20px;    
+    margin-bottom: 10px;
+}
+.contact-wrapper-input-both-item {
+    width: calc(50% - 5px);
+
+}
+
+.contact-wrapper-textarea {
+    height: 180px;
+    margin-bottom: 20px;
+} 
+
+
+
+.contact-wrapper-input-both-margin input {
+    margin-right: 10px;
+}
+
+.contact-wrapper-button {
+    padding: 17px 30px;
+    background-color: #7297ef;
+}
+
+
+.gl-news-saidbar-list-item {
+}
+.gl-news-saidbar-list-item-title-forum {
+    font-size: 18px;
+line-height: 24px;
+color: #000;
+font-weight: 500;
+margin-bottom: 8px;
+
 }
